@@ -1,7 +1,7 @@
 # Task Manager API
 
 ## Description
-This is a Task Manager API built with Node.js, Express, and MongoDB. It provides endpoints for managing tasks, including creating, updating, and deleting tasks.
+This is a Task Manager(To-Do) API built with Node.js, Express, and MongoDB. It provides endpoints for managing tasks, including creating, updating, and deleting tasks.
 
 ## Installation Instructions
 1. Clone the repository:
