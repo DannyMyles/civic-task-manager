@@ -62,5 +62,12 @@ task-manager-api/
     └── routes/
 ```
 
+## Endpoints
+- **POST /tasks**: Create a new task
+- **GET /tasks**: Retrieve all tasks
+- **GET /tasks/:id**: Retrieve a single task by ID
+- **PUT /tasks/:id**: Update a task by ID
+- **DELETE /tasks/:id**: Delete a task by ID
+
 ## License
 This project is licensed under the ISC License.
