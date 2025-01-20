@@ -64,4 +64,3 @@ task-manager-api/
 
 ## License
 This project is licensed under the ISC License.
-# civic-task-manager
