@@ -4,7 +4,7 @@ const connectDB = require("./db/connect");
 require("dotenv").config();
 const cors = require('cors');
 const morgan = require('morgan');
-const taskRoutes = require('./routes/taskRoutes')
+const todoRoutes = require('./routes/todoRoutes')
 
 
 
@@ -16,7 +16,7 @@ app.use(morgan('dev'));
 app.get('/', (req, res)=>{
   res.send('Application up and Running!')
 })
-app.use('/api/v1', taskRoutes)
+app.use('/api/v1', todoRoutes)
 
 
 const port = process.env.PORT || 5000;

@@ -1,7 +1,7 @@
-# Task Manager API
+# ToDo Manager API
 
 ## Description
-This is a Task Manager(To-Do) API built with Node.js, Express, and MongoDB. It provides endpoints for managing tasks, including creating, updating, and deleting tasks.
+This is a ToDo Manager(To-Do) API built with Node.js, Express, and MongoDB. It provides endpoints for managing todos, including creating, updating, and deleting todos.
 
 ## Installation Instructions
 1. Clone the repository:
@@ -10,7 +10,7 @@ This is a Task Manager(To-Do) API built with Node.js, Express, and MongoDB. It p
    ```
 2. Navigate to the project directory:
    ```bash
-   cd task-manager-api
+   cd todo-manager-api
    ```
 3. Install the dependencies:
    ```bash
@@ -46,7 +46,7 @@ To run the project, you can use the following commands:
 
 ## Project Structure
 ```
-task-manager-api/
+todo-manager-api/
 ├── .env
 ├── .gitignore
 ├── Dockerfile
@@ -63,11 +63,11 @@ task-manager-api/
 ```
 
 ## Endpoints
-- **POST /tasks**: Create a new task
-- **GET /tasks**: Retrieve all tasks
-- **GET /tasks/:id**: Retrieve a single task by ID
-- **PUT /tasks/:id**: Update a task by ID
-- **DELETE /tasks/:id**: Delete a task by ID
+- **POST /todos**: Create a new todo
+- **GET /todos**: Retrieve all todos
+- **GET /todos/:id**: Retrieve a single todo by ID
+- **PUT /todos/:id**: Update a todo by ID
+- **DELETE /todos/:id**: Delete a todo by ID
 
 ## License
 This project is licensed under the ISC License.
