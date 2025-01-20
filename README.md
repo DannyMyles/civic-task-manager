@@ -1,7 +1,7 @@
 # ToDo Manager API
 
 ## Description
-This is a ToDo Manager(To-Do) API built with Node.js, Express, and MongoDB. It provides endpoints for managing todos, including creating, updating, and deleting todos.
+This is a ToDo Manager API built with Node.js, Express, and MongoDB. It provides endpoints for managing todos, including creating, updating, and deleting todos.
 
 ## Installation Instructions
 1. Clone the repository:
